@@ -1,4 +1,4 @@
-play at: 
+play at: https://itsnehaojha.github.io/Tic-Tac-Trio/
 
 AI vs You: Tic-Tac-Toe
 Welcome to AI vs You: Tic-Tac-Toe – a modern twist on the classic game of Tic-Tac-Toe, featuring three difficulty levels powered by AI. This game is developed using JavaScript and showcases simple AI concepts to provide an engaging and challenging experience for players of all skill levels.
