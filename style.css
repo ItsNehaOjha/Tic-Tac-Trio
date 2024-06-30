@@ -343,6 +343,9 @@ h1 {
 }
 
 @media (max-width: 768px) {
+    .resetGame{
+        margin-bottom: 6rem;
+    }
     .game {
         margin-top: -3rem;
     }
