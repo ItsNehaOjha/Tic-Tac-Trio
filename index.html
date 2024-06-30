@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay hide"></div>
+    <div class="msg-container hide">
+        <div class="p">
+            <p id="msg">Winner <br></p>
+        </div>
+        <button class="newGame hide" id="continueBtn">Continue</button>
+        <button class="resetGame hide" id="resetMsgBtn">Reset Game</button>
+    </div>
+
+    
+    <!-- Container for game and reset button -->
+     
+    <div class="container">
+        <!-- Game box -->
+        <div class="top">
+            <h1>Tic Tac Toe</h1>
+            <!-- Difficulty level buttons -->
+            <div class="difficulty-buttons">
+                <button class="diff" id="easy" data-tooltip="Refresh or restart to select another level">Easy</button>
+                <button class="diff" id="medium" data-tooltip="Refresh or restart to select another level">Medium</button>
+                <button class="diff" id="hard" data-tooltip="Refresh or restart to select another level">Hard</button>
+            </div>
+            
+            <h3 class="scoreh3">Score: </h3>
+            <p class="score" id="scoreCount"></p>
+        </div>
+        <div id="popup" class="popup">Select any level to play</div>
+        <div class="game">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </div>
+
+    <!-- Reset button -->
+    <div class="reset">
+        <button class="resetGame" id="resetMainBtn">Reset Game</button>
+    </div>
+    <script src="common.js"></script>
+    <script src="script.js" defer></script>
+    <script src="easy.js" defer></script>
+    <script src="medium.js" defer></script>
+    <script src="hard.js" defer></script>
+</body>
+</html>
